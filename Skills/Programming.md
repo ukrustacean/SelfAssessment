@@ -1,106 +1,107 @@
 ## Programming fundamental concepts
 
 - Syntax and concepts
-  - value
-  - identifier
-  - variable
-  - constant
-  - scalar
-  - literal
-  - expression
-  - heap
-  - function
-  - procedure
-  - method
-  - class
-  - prototype
-  - event
-  - type
-  - primitive types
-  - reference types
-  - flag
-  - lexical scope
-  - code block
-  - conditions
-  - loops
-  - assignment
-  - regular expression
-  - interface
-  - contract
-  - module
-  - call stack
+  - value: 🚀 constructed
+  - identifier: 🚀 constructed
+  - variable: 🚀 constructed
+  - constant: 🚀 constructed
+  - scalar: 🚀 constructed
+  - literal: 🚀 constructed
+  - expression: 🚀 constructed
+  - heap: 🙋 explained
+  - function: 🚀 constructed
+  - procedure: 🚀 constructed
+  - method: 🙋 explained
+  - class: 🙋 explained
+  - prototype: 🙋 explained
+  - event: 🙋 explained
+  - type: 🙋 explained
+  - primitive types: 🙋 explained
+  - reference types: 🙋 explained
+  - flag: 🙋 explained
+  - lexical scope: 🖐️ used
+  - code block: 🚀 constructed
+  - conditions: 🚀 constructed
+  - loops: 🚀 constructed
+  - assignment: 🚀 constructed
+  - regular expression: 🔬 researched
+  - interface: 🙋 explained
+  - contract: 🎓 known
+  - module: 🙋 explained
+  - call stack: 🙋 explained
 - Functions
-  - signature
-  - argument
-  - parameter
-  - pure function
-  - lambda expression
-  - side effects
-  - closure
-  - partial application
-  - curry
-  - higher order
-  - recursion
-  - callback
-  - listener
-  - compose
-  - pipe
-  - memoize
-  - wrapper
-  - functor
-  - monad
-  - monoid
-  - generator
-  - coroutine
+  - signature: 📢 talked
+  - argument: 🙋 explained
+  - parameter: 🙋 explained
+  - pure function: 🙋 explained
+  - lambda expression: 🚀 constructed
+  - side effects: 🙋 explained
+  - closure: 🚀 constructed
+  - partial application: 🖐️ used
+  - curry: 🖐️ used
+  - higher order: 🖐️ used
+  - recursion: 🙋 explained
+  - callback: 🙋 explained
+  - listener: 🙋 explained
+  - compose: 🖐️ used
+  - pipe: 🖐️ used
+  - memoize: 🖐️ used
+  - wrapper: 🖐️ used
+  - functor: 🙋 explained
+  - monad: 🙋 explained
+    > Monad is a monoid in the category of endofunctors
+  - monoid: 🎓 known
+  - generator: 🖐️ used
+  - coroutine: 🙋 explained
 - Data structures
-  - array
-  - structure
-  - record
-  - enum
-  - instance
-  - object
-  - class
-  - collection
-  - set
-  - hash table
-  - linked list
-  - doubly list
-  - unrolled list
-  - circular list
-  - queue
-  - stack
-  - deque
-  - tree
-  - graph
-  - iterator
-  - mutable state
-  - immutable state
-  - serialization
-  - string parsing
+  - array: 🙋 explained
+  - structure: 🙋 explained
+  - record: 🎓 known
+  - enum: 📢 talked
+  - instance: 🙋 explained
+  - object: 🙋 explained
+  - class: 🙋 explained
+  - collection: 🙋 explained
+  - set: 🖐️ used
+  - hash table: 🖐️ used
+  - linked list: 🚀 constructed
+  - doubly list: 🚀 constructed
+  - unrolled list: 🎓 known
+  - circular list: 🎓 known
+  - queue: 🚀 constructed
+  - stack: 🚀 constructed
+  - deque: 🚀 constructed
+  - tree: 🚀 constructed
+  - graph: 🚀 constructed
+  - iterator: 🚀 constructed
+  - mutable state: 📢 talked
+  - immutable state: 📢 talked
+  - serialization: 🙋 explained
+  - string parsing: 🙋 explained
 - Process & style
-  - compiler
-  - transpiler
-  - linter
-  - polyfill
-  - debugger
-  - garbage collection
-  - refactoring
-  - code review
-  - antipatterns
-  - paradigm
-  - algorithm
-  - magic numbers
-  - hardcode
-  - complexity
-  - decomposition
-  - spaghetti
-  - silver bullet
-  - not invented here
-  - dead code
-  - unreachable code
-  - duplicate code
-  - exception
-  - return early
-  - unittest
-  - git
-  - github
+  - compiler: 🚀 constructed
+  - transpiler: 🙋 explained
+  - linter: 🙋 explained
+  - polyfill: 🖐️ used
+  - debugger: 🖐️ used
+  - garbage collection: 🙋 explained
+  - refactoring: 🖐️ used
+  - code review: 🖐️ used
+  - antipatterns: 🎓 known
+  - paradigm: 🔬 researched
+  - algorithm: 🚀 constructed
+  - magic numbers: 🎓 known
+  - hardcode: 🎓 known
+  - complexity: 🎓 known
+  - decomposition: 👂 heard
+  - spaghetti: 😋 eaten
+  - silver bullet: 👂 heard
+  - not invented here: 👂 heard
+  - dead code: 🎓 known
+  - unreachable code: 🎓 known
+  - duplicate code: 🎓 known
+  - exception: 🖐️ used
+  - return early: 🖐️ used
+  - unittest: 🖐️ used
+  - git: 🖐️ used
+  - github: 🖐️ used
