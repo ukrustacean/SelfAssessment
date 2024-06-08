@@ -1,143 +1,143 @@
 ## Node.js and backend
 
-- Internals and concepts
-  - Strong and weak sides of node.js
-  - Stateful and stateless servers
-  - Nonblocking I/O and blocking code
-  - Event loop phases
-  - Event loop microtasks and macrotasks
-  - Garbage collection
-  - Node.js LTS schedule
-  - I/O-bound, CPU-bound, memory-bound tasks
-  - Interactive applications (close to real-time)
-- Modularity, layers and dependencies
-  - CommonJS modules
-  - ECMAScript modules
-  - Module `node:module`
-  - Caching in CJS and ESM
-  - Modules as singletons
-  - Contexts and scripts module `node:vm`
-  - Dependencies: `npm`, `node_modules`
-  - Files `package.json`, `package-lock.json`
-  - Module-based permissions model
-  - Isolation with modularity
-  - Dependency injection
-  - DI containers
-  - Coupling and cohesion
-  - Framework agnostic approach
-- Environment
-  - Command line arguments
-  - Node.js CLI
-  - Process-based permissions
-  - Graceful shutdown
-  - Clustering
-  - Watch filesystem changes with --watch
-- Internal API
-  - Streams API
-  - Web Streams API
-  - Crypto API
-  - Password hashing with crypto.scrypt
-  - Web Crypto API
-  - File system API (sync and async)
-  - Copy folder recursively
-  - Worker threads
-  - Performance hooks
-  - Native fetch and nodejs/undici
-  - async_hooks
-  - AsyncLocalStorage
-  - AsyncResource
-  - Deprecated domain API
-  - Node.js single executable
-  - SharedArrayBuffer
-  - Module `node:worker_threads`
-  - Module `node:child_process`
-  - MessageChannel, MessagePort
-  - BroadcastChannel
-  - Generating crypto random UUID
-  - Module `node:url` vs `new URL`
-  - Module `node:assert`
-  - Internationalization
-  - Blob, File, Buffer, module `node:buffer`
-  - Module `node:zlib`
-- Network
-  - Endpoint throttling
-  - ALPN
-  - SNI callback
-  - SSL certificates
-  - Protocol agnostic approach
-  - Fetch API
-  - IncomingMessage
-  - HTTP(S)
-  - TCP/SSL
-  - UDP
-  - TLS
-  - Websocket
-  - SSE
-  - HTTP/3 (QUIC)
-  - Long polling
-  - REST
-  - RPC
-  - Routing
-  - DoS
-  - DDoS
-  - XSS
-  - Path traversal
-  - CSRF
-  - DNS
-  - SQL injection
-  - noDelay
-  - keep-alive
-  - IP sticky sessions
-- Technique and tools
-  - Native test runner
-  - Logging
-  - Application configuring
-  - Testing
-  - CI/CD
-  - Readable
-  - Writable
-  - Transform
-  - Back pressure
-  - Buffer
-  - Console
-  - Inspector
-- Data access
-  - Data access layer
-  - Repository
-  - Active record
-  - Query builder
-  - Object-Relational Mapping
-  - CRUD
-  - DTO
-- Error handling and debugging
-  - `Error`
-  - `error.cause`
-  - `error.code`
-  - `error.message`
-  - `error.stack`
-  - `Error.captureStackTrace`
-  - How to avoid mixins
-  - Uncaught exceptions
-  - Heap dump
-  - Debugging tools
-  - Flame graph
-  - Memory leaks
-  - Resource leaks
-  - Data race
-- Integrations and bindings
-  - Native addons
-  - `C` and `C++` addons
-  - `Rust` addons
-  - `Zig` addons
-  - NAN (Native Abstractions for Node.js)
-  - Node-API (formerly N-API)
-  - NAPI `C` and `C++`
-  - NAPI `Rust`
-  - NAPI `Zig`
-  - Webassembly `WAT`
-  - Webassembly `C` and `C++`
-  - Webassembly `Rust`
-  - Webassembly `Zig`
-  - Webassembly `AssemblyScript`
-  - Shared memory
-  - V8 binary serialization
+- Internals and concepts 🎓 known
+  - Strong and weak sides of node.js 🎓 known
+  - Stateful and stateless servers 🎓 known
+  - Nonblocking I/O and blocking code 🎓 known
+  - Event loop phases 🎓 known
+  - Event loop microtasks and macrotasks 🎓 known
+  - Garbage collection 🎓 known
+  - Node.js LTS schedule 🎓 known
+  - I/O-bound, CPU-bound, memory-bound tasks 🎓 known
+  - Interactive applications (close to real-time) 🎓 known
+- Modularity, layers and dependencies 🎓 known
+  - CommonJS modules 🎓 known
+  - ECMAScript modules 🎓 known
+  - Module `node:module` 🎓 known
+  - Caching in CJS and ESM 🎓 known
+  - Modules as singletons 🎓 known
+  - Contexts and scripts module `node:vm` 🎓 known
+  - Dependencies: `npm`, `node_modules` 🎓 known
+  - Files `package.json`, `package-lock.json` 🎓 known
+  - Module-based permissions model 🎓 known
+  - Isolation with modularity 🎓 known
+  - Dependency injection 🎓 known
+  - DI containers 🎓 known
+  - Coupling and cohesion 🎓 known
+  - Framework agnostic approach  🎓 known
+- Environment 🖐️ used
+  - Command line arguments 🖐️ used
+  - Node.js CLI 🖐️ used
+  - Process-based permissions 🖐️ used
+  - Graceful shutdown 🖐️ used
+  - Clustering 👂 heard
+  - Watch filesystem changes with --watch 🖐️ used
+- Internal API 👂 heard
+  - Streams API 👂 heard
+  - Web Streams API 👂 heard
+  - Crypto API 👂 heard
+  - Password hashing with crypto.scrypt 👂 heard
+  - Web Crypto API 👂 heard
+  - File system API (sync and async) 👂 heard
+  - Copy folder recursively 👂 heard
+  - Worker threads 👂 heard
+  - Performance hooks 👂 heard
+  - Native fetch and nodejs/undici 👂 heard
+  - async_hooks 👂 heard
+  - AsyncLocalStorage 👂 heard
+  - AsyncResource 👂 heard
+  - Deprecated domain API 👂 heard
+  - Node.js single executable 👂 heard
+  - SharedArrayBuffer 👂 heard
+  - Module `node:worker_threads` 👂 heard
+  - Module `node:child_process` 👂 heard
+  - MessageChannel, MessagePort 👂 heard
+  - BroadcastChannel 👂 heard
+  - Generating crypto random UUID 👂 heard
+  - Module `node:url` vs `new URL` 👂 heard
+  - Module `node:assert` 👂 heard
+  - Internationalization 👂 heard
+  - Blob, File, Buffer, module `node:buffer` 👂 heard
+  - Module `node:zlib` 👂 heard
+- Network 🎓 known
+  - Endpoint throttling 🎓 known
+  - ALPN 🎓 known
+  - SNI callback 🎓 known
+  - SSL certificates 🎓 known
+  - Protocol agnostic approach 🎓 known
+  - Fetch API 🎓 known
+  - IncomingMessage 🎓 known
+  - HTTP(S) 🎓 known
+  - TCP/SSL 🎓 known
+  - UDP 🎓 known
+  - TLS 🎓 known
+  - Websocket 🎓 known
+  - SSE 🎓 known
+  - HTTP/3 (QUIC) 🎓 known
+  - Long polling 🎓 known
+  - REST 🎓 known
+  - RPC 🎓 known
+  - Routing 🎓 known
+  - DoS 🎓 known
+  - DDoS 🎓 known
+  - XSS 🎓 known
+  - Path traversal 🎓 known
+  - CSRF 🎓 known
+  - DNS 🎓 known
+  - SQL injection 🎓 known
+  - noDelay 🎓 known
+  - keep-alive 🎓 known
+  - IP sticky sessions 🎓 known
+- Technique and tools 👂 heard
+  - Native test runner 👂 heard
+  - Logging 👂 heard
+  - Application configuring 👂 heard
+  - Testing 👂 heard
+  - CI/CD 👂 heard
+  - Readable 👂 heard
+  - Writable 👂 heard
+  - Transform 👂 heard
+  - Back pressure 👂 heard
+  - Buffer 👂 heard
+  - Console 👂 heard
+  - Inspector 👂 heard
+- Data access 👂 heard
+  - Data access layer 👂 heard
+  - Repository 👂 heard
+  - Active record 👂 heard
+  - Query builder 👂 heard
+  - Object-Relational Mapping 👂 heard
+  - CRUD 👂 heard
+  - DTO 👂 heard
+- Error handling and debugging 🎓 known
+  - `Error` 🎓 known
+  - `error.cause` 🎓 known
+  - `error.code` 🎓 known
+  - `error.message` 🎓 known
+  - `error.stack` 🎓 known
+  - `Error.captureStackTrace` 🎓 known
+  - How to avoid mixins 🎓 known
+  - Uncaught exceptions 🎓 known
+  - Heap dump 🎓 known
+  - Debugging tools 🎓 known
+  - Flame graph 🎓 known
+  - Memory leaks 🎓 known
+  - Resource leaks 🎓 known
+  - Data race 🎓 known
+- Integrations and bindings 🔬 researched
+  - Native addons 🔬 researched
+  - `C` and `C++` addons 🔬 researched
+  - `Rust` addons 🔬 researched
+  - `Zig` addons 🔬 researched
+  - NAN (Native Abstractions for Node.js) 🔬 researched
+  - Node-API (formerly N-API) 🔬 researched
+  - NAPI `C` and `C++` 🔬 researched
+  - NAPI `Rust` 🔬 researched
+  - NAPI `Zig` 🔬 researched
+  - Webassembly `WAT` 🔬 researched
+  - Webassembly `C` and `C++` 🔬 researched
+  - Webassembly `Rust` 🔬 researched
+  - Webassembly `Zig` 🔬 researched
+  - Webassembly `AssemblyScript` 🔬 researched
+  - Shared memory 🔬 researched
+  - V8 binary serialization 🔬 researched

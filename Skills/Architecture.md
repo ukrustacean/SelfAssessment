@@ -1,100 +1,100 @@
 ## Architecture
 
-- Application structure
-  - Modularity
-  - Components
-  - Directories
-  - GRASP
-  - SOLID
-  - GoF patterns
-  - CQS
-  - Leaking abstractions
-  - Multiparadigm code
-  - Contract programming
-  - Platform-agnostic
-  - Transport-agnostic
-  - Framework-agnostic
+- Application structure 👂 heard
+  - Modularity 👂 heard
+  - Components 👂 heard
+  - Directories 👂 heard
+  - GRASP 👂 heard
+  - SOLID 👂 heard
+  - GoF patterns 👂 heard
+  - CQS 👂 heard
+  - Leaking abstractions 👂 heard
+  - Multiparadigm code 🖐️ used
+  - Contract programming 🎓 known
+  - Platform-agnostic 🎓 known
+  - Transport-agnostic 🎓 known
+  - Framework-agnostic 🎓 known
   - Code coverage
-  - Cohesion
-  - Coupling
-  - Cyclomatic complexity
-  - Reliability
-  - Quality
-  - Availability
-  - Flexibility
-  - Law of Demeter (LoD)
-- Application architecture
-  - Isolation between layer
-  - Domain-specific language (DSL)
-  - System vs applied code
-  - Multilayer approach
-  - Hexagonal architecture
-  - Separation of concerns (SoC)
-  - Metaprogramming
-  - Inversion of control (IoC)
-  - Dependency injection (DI)
-  - Clean architecture
-  - Domain-driven design (DDD)
-  - Pub/sub
-  - Message brocker
-  - Agent
-  - Service locator
-  - Message Queue (MQ)
-  - CQRS
-  - Event sourcing
-  - E-R data modeling
-  - Entity-relationship diagram
-  - IDEF1X
-  - UML
-  - Work breakdown structure
-  - Budget estimation
-  - Distributed systems
-  - High-intensive computing
-  - Load balancing
-  - Gateways
-  - On-premises
-  - IaaS
-  - PaaS
-  - SaaS
-  - FaaS clouds
-  - Serverless
-  - Vendor lock-in
-  - Bus factor
-- Solution architecture
-  - A software requirements specification (SRS)
-  - Solution visions
-  - Solution capabilities
-  - System design
-  - Process modelling
-  - Data modelling
-  - Solution components
-  - Risk assessment
-  - Non Functional Requirements (NFR)
-  - Clouds
-  - BPMN
-  - Low-code
-  - No-code
-  - Metric
-  - Metric abuse
-  - ACID
-  - CAP theorem
-  - Single source of truth (SSOT)
-- Enterprise architecture
-  - Understanding business needs
-  - Enterprise strategy
-  - Integration with subsystems
-  - Enterprise vision
-  - Enterprise capabilities
-  - Project scope
-  - Enterprise service bus
-  - Service-oriented architecture
-  - Microservices
-  - Process choreography
-  - Service orchestration
-  - Data warehouse
-  - Business Intelligence
-  - OLAP
-  - OLTP
-  - Conways Law
-  - Quality assurance
-  - Engineering Hygiene
+  - Cohesion 👂 heard
+  - Coupling 🎓 known
+  - Cyclomatic complexity 👂 heard
+  - Reliability 🎓 known
+  - Quality 🎓 known
+  - Availability 🎓 known
+  - Flexibility 🎓 known
+  - Law of Demeter (LoD) 👂 heard
+- Application architecture 👂 heard
+  - Isolation between layer 👂 heard
+  - Domain-specific language (DSL) 👂 heard
+  - System vs applied code 👂 heard
+  - Multilayer approach 👂 heard
+  - Hexagonal architecture 👂 heard
+  - Separation of concerns (SoC) 👂 heard
+  - Metaprogramming 🖐️ used
+  - Inversion of control (IoC) 👂 heard
+  - Dependency injection (DI) 👂 heard
+  - Clean architecture 👂 heard
+  - Domain-driven design (DDD) 👂 heard
+  - Pub/sub 👂 heard
+  - Message brocker 👂 heard
+  - Agent 👂 heard
+  - Service locator 👂 heard
+  - Message Queue (MQ) 👂 heard
+  - CQRS 👂 heard
+  - Event sourcing 👂 heard
+  - E-R data modeling 👂 heard
+  - Entity-relationship diagram 👂 heard
+  - IDEF1X 👂 heard
+  - UML 👂 heard
+  - Work breakdown structure 👂 heard
+  - Budget estimation 👂 heard
+  - Distributed systems 👂 heard
+  - High-intensive computing 👂 heard
+  - Load balancing 👂 heard
+  - Gateways 👂 heard
+  - On-premises 👂 heard
+  - IaaS 👂 heard
+  - PaaS 👂 heard
+  - SaaS 👂 heard
+  - FaaS clouds 👂 heard
+  - Serverless 👂 heard
+  - Vendor lock-in 👂 heard
+  - Bus factor 👂 heard
+- Solution architecture 👂 heard
+  - A software requirements specification (SRS) 👂 heard
+  - Solution visions 👂 heard
+  - Solution capabilities 👂 heard
+  - System design 👂 heard
+  - Process modelling 👂 heard
+  - Data modelling 👂 heard
+  - Solution components 👂 heard
+  - Risk assessment 👂 heard
+  - Non Functional Requirements (NFR) 👂 heard
+  - Clouds 👂 heard
+  - BPMN 👂 heard
+  - Low-code 👂 heard
+  - No-code 👂 heard
+  - Metric 👂 heard
+  - Metric abuse 👂 heard
+  - ACID 👂 heard
+  - CAP theorem 👂 heard
+  - Single source of truth (SSOT) 👂 heard
+- Enterprise architecture 👂 heard
+  - Understanding business needs 👂 heard
+  - Enterprise strategy 👂 heard
+  - Integration with subsystems 👂 heard
+  - Enterprise vision 👂 heard
+  - Enterprise capabilities 👂 heard
+  - Project scope 👂 heard
+  - Enterprise service bus 👂 heard
+  - Service-oriented architecture 👂 heard
+  - Microservices 👂 heard
+  - Process choreography 👂 heard
+  - Service orchestration 👂 heard
+  - Data warehouse 👂 heard
+  - Business Intelligence 👂 heard
+  - OLAP 👂 heard
+  - OLTP 👂 heard
+  - Conways Law 👂 heard
+  - Quality assurance 👂 heard
+  - Engineering Hygiene 👂 heard
